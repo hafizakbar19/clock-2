@@ -1,4 +1,4 @@
-#clock {
+/* #clock {
     font-size: 60px;
     color: white;
     background-color: black;
@@ -8,4 +8,19 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  
+   */
+
+
+   .clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+#clock {
+    font-size: 100px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
